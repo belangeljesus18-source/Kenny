@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>objeto</title>
+    <!-- script de A-Frame versión 1.0.0 -->
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+      <a-entity obj-model="obj: Kenny.obj; mtl: Kenny.mtl" position="-3" scale=".35 .35 .35" rotation="000" 
+        animation_rotation="property: rotation; to: 0 360 0; dur: 10000; easing: linear">
+      </a-entity>
+      <a-sky color="#87CEEB"></a-sky>
+      <a-entity camera look-controls wasd-controls position="0 1.5 3"></a-entity>
+    </a-scene>
+  </body>
+</html>
